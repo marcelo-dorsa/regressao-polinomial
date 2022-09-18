@@ -5,7 +5,7 @@ services:
   server_config: {}
 package_name: Initial_Test
 allow_embedding: false
-name: Clone of Regressão polinomial (2)
+name: Poly reg(com teste)
 runtime_options:
   version: 2
   client_version: '3'
