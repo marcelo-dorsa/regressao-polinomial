@@ -1,0 +1,41 @@
+is_package: true
+container:
+  type: HtmlTemplate
+  properties: {html: '@theme:standard-page.html'}
+components:
+- type: ColumnPanel
+  properties: {col_widths: '{}'}
+  name: content_panel
+  layout_properties: {slot: default}
+  components:
+  - type: TextBox
+    properties: {}
+    name: x_inputs
+    layout_properties: {grid_position: 'UHZIWQ,EHOFNP'}
+    event_bindings: {pressed_enter: x_inputs_pressed_enter}
+  - type: TextBox
+    properties: {}
+    name: y_inputs
+    layout_properties: {grid_position: 'RBBHJC,WEDWPU'}
+    event_bindings: {pressed_enter: text_box_1_pressed_enter}
+  - type: TextBox
+    properties: {}
+    name: m_inputs
+    layout_properties: {grid_position: 'WSXXNG,YXANIE'}
+    event_bindings: {pressed_enter: text_box_1_pressed_enter}
+  - type: Button
+    properties: {role: null, align: center, tooltip: '', border: '', enabled: true,
+      foreground: '', visible: true, text: button, font_size: null, font: '', spacing_above: small,
+      icon_align: left, spacing_below: small, italic: false, background: '', bold: false,
+      underline: false, icon: ''}
+    name: button
+    layout_properties: {grid_position: 'DMHKYU,FRDPJF'}
+    event_bindings: {click: button_1_click}
+  - type: Plot
+    properties: {}
+    name: plot_1
+    layout_properties: {grid_position: 'XFHJFT,CMITKJ'}
+- type: FlowPanel
+  properties: {}
+  name: navbar_links
+  layout_properties: {slot: nav-right}
