@@ -5,13 +5,13 @@ services:
   server_config: {}
 package_name: Initial_Test
 allow_embedding: false
-name: Poly reg(com teste)
+name: Regressão polinomial e linear
 runtime_options:
   version: 2
   client_version: '3'
   server_version: python3-full
   server_spec: {base: python310-standard}
   server_spec_disabled: {base: python310-standard, requirements: numpy==1.23.2}
-metadata: {}
+metadata: {title: Regressão polinomial e linear}
 startup_form: Form1
 db_schema: {}
