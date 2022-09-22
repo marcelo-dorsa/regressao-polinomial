@@ -25,13 +25,6 @@ components:
     name: x_inputs
     layout_properties: {grid_position: 'UHZIWQ,EHOFNP'}
     event_bindings: {pressed_enter: x_inputs_pressed_enter}
-  - type: Label
-    properties: {role: subheading, align: left, tooltip: '', border: '', foreground: '',
-      visible: true, text: 'Vetor y:', font_size: null, font: '', spacing_above: small,
-      icon_align: left, spacing_below: small, italic: false, background: '', bold: false,
-      underline: false, icon: ''}
-    name: label_2
-    layout_properties: {grid_position: 'RBBHJC,QTJNBA'}
   - type: TextBox
     properties: {role: null, align: left, hide_text: false, tooltip: '', placeholder: '',
       border: '', enabled: true, foreground: '', visible: true, text: '0.5, 2.5, 2.0,
@@ -40,6 +33,13 @@ components:
     name: y_inputs
     layout_properties: {grid_position: 'RBBHJC,WEDWPU'}
     event_bindings: {pressed_enter: text_box_1_pressed_enter}
+  - type: Label
+    properties: {role: subheading, align: left, tooltip: '', border: '', foreground: '',
+      visible: true, text: 'Vetor y:', font_size: null, font: '', spacing_above: small,
+      icon_align: left, spacing_below: small, italic: false, background: '', bold: false,
+      underline: false, icon: ''}
+    name: label_2
+    layout_properties: {grid_position: 'ITVRQG,GNDZPP'}
   - type: Label
     properties: {role: null, align: left, tooltip: '', border: '', foreground: '',
       visible: true, text: Grau da regressão (escolha 1 para linear), font_size: null,
