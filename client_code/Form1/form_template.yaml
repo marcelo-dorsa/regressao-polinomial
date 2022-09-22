@@ -61,7 +61,7 @@ components:
       icon_align: left, spacing_below: small, italic: false, background: '', bold: false,
       underline: false, icon: ''}
     name: button
-    layout_properties: {grid_position: 'DMHKYU,FRDPJF'}
+    layout_properties: {grid_position: 'XFHJFT,FDXECM', slot: left-nav}
     event_bindings: {click: button_1_click}
   - type: Plot
     properties: {}
