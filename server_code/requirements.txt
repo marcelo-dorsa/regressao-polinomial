@@ -1,4 +1,0 @@
-numpy==1.23.0rc1
-matplotlib==3.6.0rc2
-plotly
-latex

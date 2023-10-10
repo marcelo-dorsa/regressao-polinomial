@@ -9,9 +9,15 @@ name: Regressão polinomial e linear
 runtime_options:
   version: 2
   client_version: '3'
-  server_version: python3-full
-  server_spec: {base: python310-standard}
-  server_spec_disabled: {base: python310-standard, requirements: numpy==1.23.2}
+  server_version: python3-sandbox
+  server_spec: null
+  server_spec_disabled: {base: python310-standard, requirements: 'numpy==1.23.0rc1
+
+      matplotlib==3.6.0rc2
+
+      plotly
+
+      latex'}
 metadata: {title: Regressão polinomial e linear}
 startup_form: Form1
 db_schema: {}
